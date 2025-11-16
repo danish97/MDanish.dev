@@ -15,7 +15,7 @@ const AboutSection = () => {
           {/* mobile image first */}
           <div className=" md:hidden grid-cols-1 gap-6">
             <div className="flex bg-primary justify-center">
-              <img className=" h-72 w-72 object-cover " src="src/imgs/dp.JPG" />
+              <img className=" h-72 w-72 object-cover " src="/imgs/about.JPG" />
             </div>
           </div>
           <FadeInUp>
@@ -64,7 +64,7 @@ const AboutSection = () => {
           </FadeInUp>
           <div className="hidden md:grid grid-cols-1 gap-6">
             <div className="flex md:h-96 md:w-96 bg-primary justify-center">
-              <img className="md:h-96 md:w-96 md:-mt-2 md:-ml-4 object-cover " src="src/imgs/dp.JPG" />
+              <img className="md:h-96 md:w-96 md:-mt-2 md:-ml-4 object-cover " src="/imgs/about.JPG" />
             </div>
           </div>
         </div>
