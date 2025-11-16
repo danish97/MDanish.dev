@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { FadeInUp } from "./fadein";
 
 const projects = [
   {
@@ -45,20 +46,28 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
+        <FadeInUp>
         <h2 className="text-3xl md:text-4xl mb-4 font-bold text-center">
           Featured<span className="text-primary"> Projects</span>
         </h2>
+        </FadeInUp>
+        <FadeInUp>
         <p className="text-center text-muted-foreground mb-12 p-4 rounded-sm max-w-2xl mx-auto bg-card/60">
           Here are some of my recent Projects. Each project was carefuly built
           from scratch with attention to detail, performance and user
           experience.
         </p>
+        </FadeInUp>
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
           {projects.map((project, key) => (
+            <FadeInUp>
             <div
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col h-full"
             >
+              
               <div className="h-48 overflow-hidden">
                 <img
                   src={project.image}
@@ -106,11 +115,14 @@ const ProjectsSection = () => {
                     ) : (
                       ""
                     )}
+                    
                   </div>
                 </div>
               </div>
             </div>
+            </FadeInUp>
           ))}
+          
         </div>
         <div className="mt-12 text-center">
           <a

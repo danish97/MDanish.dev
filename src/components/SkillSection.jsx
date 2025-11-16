@@ -1,3 +1,4 @@
+import { FadeInUp } from "./fadein";
 import LogoLoop from "./LogoLoop";
 import {
   SiReact,
@@ -38,9 +39,11 @@ const SkillSection = () => {
       id="skills"
       className="relative py-24 flex flex-col items-center justify-center space-y-4 mb-6 "
     >
+      <FadeInUp>
       <h2 className="text-2xl md:text-4xl font-bold text-center animate-fade-in-delay-1">
         My <span className="text-primary ">Skills</span>
       </h2>
+      </FadeInUp>
       <div className="flex flex-col justify-center mx-auto gap-2">
         <div className="flex space-y-4 bg-card p-6 rounded-lg overflow-hidden max-w-6xl">
           <div className="mr-4 max-w-xl ">
