@@ -4,6 +4,16 @@ import { FadeInUp } from "./fadein";
 const projects = [
   {
     id: 1,
+    title: "AI Powered Quiz Funnel Generator",
+    description:
+      "A simple yet powerful AI tool that generates 5 quiz questions for your quiz funnel by just analyzing your landing page.",
+    image: "/projects/quizgenerator.png",
+    tags: ["Langchain", "OpenAI", "Django", "React"],
+    githubUrl: "https://github.com/danish97/AI-Quiz-Generator",
+    live: false,
+  },
+  {
+    id: 2,
     title: "DevConnect",
     description:
       "A Social Media Platform for developers. Register, Login and start posting your favorite Coding Tips",
@@ -21,7 +31,7 @@ const projects = [
     live: "https://dev-connect-two-blue.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "FlowDo",
     description:
       "A platform to create task boards for yourself. Mark as completed, Create Categories, Update Tasks, All in one place.",
@@ -31,7 +41,7 @@ const projects = [
     live: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Veo 3 Content Creation Agent",
     description:
       "An AI Agent that auto generates content and posts on tiktok. Just input an Idea in Google Sheet and You're done.",

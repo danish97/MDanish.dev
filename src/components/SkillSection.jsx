@@ -13,6 +13,7 @@ import {
   SiGithub,
   SiN8N,
   SiPostman,
+  SiLangchain,
 } from "react-icons/si";
 
 const techLogos = [
@@ -25,7 +26,9 @@ const techLogos = [
   { node: <SiGithub />, title: "GitHub" },
   { node: <SiNodedotjs />, title: "NodeJs" },
   { node: <SiN8N />, title: "n8n" },
-  { node: <SiPostman />, title: "n8n" },
+  { node: <SiPostman />, title: "Postman" },
+  { node: <SiLangchain />, title: "Langchain" },
+
 ];
 
 const skills = [
@@ -53,6 +56,7 @@ const skills = [
   { name: "Vapi", level: 95, category: "ai" },
   { name: "Make.com", level: 95, category: "ai" },
   { name: "Supabase", level: 90, category: "ai" },
+  { name: "Langchain", level: 90, category: "ai" },
 ];
 const categories = ["all", "frontend", "backend", "tools", "ai"];
 

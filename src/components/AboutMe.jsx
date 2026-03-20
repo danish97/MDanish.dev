@@ -29,8 +29,7 @@ const AboutSection = () => {
               and more efficient. With that passion I chose Computer Science as my bachelors and graduated in June 2025.
             </p>
             <p>
-              My expertise lies in the MERN Stack, Python, and a strong
-              foundation in C++. I enjoy turning ideas into fully functional
+              My expertise lies in the MERN Stack, Python, and building AI powered applications. I enjoy turning ideas into fully functional
               products — whether it's a full-stack web app or an automation
               system powered by AI. For me, development is more than just code —
               it's about crafting seamless experiences.
