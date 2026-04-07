@@ -50,6 +50,16 @@ const projects = [
     githubUrl: false,
     live: false,
   },
+  {
+    id: 5,
+    title: "RAG Customer Support Agent",
+    description:
+      "An AI Agent that analyzes a query received on freshdesk. Retrieves order details using Shopify API. It then searches for SOPs to answer that query in Knowledge base and replies to the customer with a solution.",
+    image: "/projects/ragagent.png",
+    tags: ["n8n", "OpenAI","Freshdesk","Shopify"],
+    githubUrl: false,
+    live: false,
+  },
 ];
 
 const ProjectsSection = () => {
